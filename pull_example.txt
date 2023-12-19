@@ -1,0 +1,19 @@
+#include <iostream>
+#include <string>
+
+// Function to print statements using parameters
+void printStatements(int a, std::string b) {
+    std::cout << "Parameter 1: " << a << std::endl;
+    std::cout << "Parameter 2: " << b << std::endl;
+    std::cout << "Additional statement: This function prints two parameters." << std::endl;
+}
+
+int main() {
+    int number = 10;
+    std::string text = "Hello, World!";
+
+    // Calling the printStatements function
+    printStatements(number, text);
+
+    return 0;
+}
